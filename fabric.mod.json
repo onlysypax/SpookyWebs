@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "spookywebs",
+  "version": "1.0.0",
+  "name": "SpookyWebs",
+  "description": "A subtle utility enhancing environmental interaction, weaving precision and timing into every placement. Made by OnlySypax.",
+  "authors": ["OnlySypax"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.spooky.webs.SpookyWebsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.4",
+    "fabric-api": "*"
+  }
+}
